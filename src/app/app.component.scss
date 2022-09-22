@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    .movie {
+        display: flex;
+        flex-direction: column;
+        margin: auto 3em;
+        img {
+            max-width: 11em;
+        }
+
+        button {
+            justify-content: space-evenly;
+        }
+    }
+}
